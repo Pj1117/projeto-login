@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and(min-width: 481px) and (max-width: 768px){
+    main{
+        width: 80vw;
+        
+    }
+    div#imagem{
+        float: left;
+    }
+    div#login{
+       background-color: aqua;
+       float: right;
+    }
+}

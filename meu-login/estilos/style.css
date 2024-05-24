@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    font-family: "Acme", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, cornflowerblue, transparent);    
+}
+
+main{
+    background-color: cornflowerblue;
+    display: block;
+    width: 67vw;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 7px black;
+    transition: width 0.2s, heigth 0.2s;
+    transition-timing-function: ease; 
+}
+
+div#imagem{
+    background-image: url(../imagens/Imagem_de_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 51vw;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#login{
+    padding: 10px;
+}
+
+div#login > h1{
+    text-align: center;
+    padding: 5px;
+}
+
+div#login > p, label{
+    font-size: 19px;
+}
+
+div#login input[type=email] {
+    background-color: #85b7e9;
+    border: 0px;
+    width: 70%;
+    height: 30px;
+    transform: translateY(-4px);
+}
+
+div#login input[type=email]:focus-within {
+    background-color: white;
+}
+
+
+div#login input[type=password] {
+    background-color: #85b7e9;
+    border: 0px;
+    width: 70%;
+    height: 30px;
+    transform: translateY(-4px);
+}
+
+div#login input[type=password]:focus-within {
+    background-color: white;
+}
+
+div#email {
+    background-color: rgb(209, 209, 209);
+    margin-top: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px black;
+    box-sizing: border-box;
+}
+
+
+div#senha{
+    background-color: rgb(209, 209, 209);
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px black;
+    box-sizing: border-box;
+}
+
+div#entrar input[type=submit] {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    font-family: "Acme", sans-serif;
+    font-size: 19px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow:  1px 1px 7px black;
+    background-color: #406e9d;
+    cursor: pointer;
+}
+
+div#entrar input[type=submit]:hover{
+    text-decoration: underline;
+    background-color: #5b98d6;
+    color: rgb(211, 211, 211);
+} 
+
+div#esqueci, a{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    font-family: "Acme", sans-serif;
+    font-size: 19px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow:  1px 1px 7px black;
+    background-color: #406e9d;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+div#esqueci a:hover{
+    text-decoration: underline;
+    background-color: #5b98d6;
+    color:  rgb(211, 211, 211);
+}
+
+form > input[type=submit] {
+    display: block;
+    color: blue;
+    background-color: bisque;
+}
+
+div#login i{
+    background-color: #406e9d;
+    padding: 3px;
+    height: 31.5px;
+    
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+
+
+
+
