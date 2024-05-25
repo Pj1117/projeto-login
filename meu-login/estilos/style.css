@@ -18,13 +18,13 @@ body, html{
     font-family: "Acme", sans-serif;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, cornflowerblue, transparent);    
+    background-image: linear-gradient(to bottom, cornflowerblue, white);    
 }
 
 main{
     background-color: cornflowerblue;
     display: block;
-    width: 67vw;
+    width: 400px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -39,8 +39,7 @@ div#imagem{
     background-image: url(../imagens/Imagem_de_fundo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 51vw;
-    width: 100%;
+    height: 280px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -156,6 +155,24 @@ div#login i{
     border-radius: 10px 0px 0px 10px;
 }
 
+@media screen and(min-width: 768px) and (max-width: 992px){
+    main{
+        width: 80vw;
+        height: 300px;
+        
+    }
+    div#imagem{
+        float: left;
+    }
+    div#login{
+       background-color: aqua;
+       float: right;
+    }
+
+    div#login input[type=email] {
+        background-color: aquamarine;
+    }
+}
 
 
 
